@@ -51,28 +51,29 @@ git init -------->WORKING DIRECTORY-------->git add ------->STAGING AREA--------
 
 **More Git Command**
 
-+**log** : track all command log.
-*eg : git log. +**dif** / \_\_diff --staged: Find the different between the staging and working directory.
-*eg : git diff.
+- **log** : track all command log.
+- eg : git log. +**dif** / diff --staged: Find the different between the staging and working directory.
+- eg : git diff.
 
 **branch in git**
 
 1(master)--> commit -m "first"-->2(master)-->git branch newbranch.
-| |-->commit -m "added in new"(newbranch).
-|----------|
-|--->git merge newbrench(master).
-|(master).
+
+<pre><pre><pre><pre><pre><pre>|<pre><pre>|-->commit -m "added in new"(newbranch).
+<pre><pre><pre><pre><pre><pre>|----------|
+<pre><pre><pre><pre><pre><pre><pre>|--->git merge newbrench(master).
+<pre><pre><pre><pre><pre><pre><pre>|(master).
 
 ------- **for more visulization visit site [visualizing git](http://git-school.github.io/visualizing-git/)**-------
 
 **more terminology**
 
-*to check branch : **git branch**.
-*to add branch : **git branch <branch name>**.
-*to switch branch : **git checkout <branch name>**.
-*to delete branch : **git branch -b <branch name>**.
-\*to merge branch : **git merge <branch name>**.
+- to check branch : **git branch**.
+- to add branch : **git branch <branch name>**.
+- to switch branch : **git checkout <branch name>**.
+- to delete branch : **git branch -b <branch name>**.
+- to merge branch : **git merge <branch name>**.
 
-\*shortcuts to create and switch to branch : **git checkout -b <branch name>**.
+- shortcuts to create and switch to branch : **git checkout -b <branch name>**.
 
 ---
