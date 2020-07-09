@@ -58,11 +58,10 @@ git init -------->WORKING DIRECTORY-------->git add ------->STAGING AREA--------
 **branch in git**
 
 1(master)--> commit -m "first"-->2(master)-->git branch newbranch.
-
-<pre><pre><pre><pre><pre><pre>|<pre><pre>|-->commit -m "added in new"(newbranch).
-<pre><pre><pre><pre><pre><pre>|----------|
-<pre><pre><pre><pre><pre><pre><pre>|--->git merge newbrench(master).
-<pre><pre><pre><pre><pre><pre><pre>|(master).
+|----------|-->commit -m "added in new"(newbranch).
+|----------|
+|--->git merge newbrench(master).
+(master).
 
 ------- **for more visulization visit site [visualizing git](http://git-school.github.io/visualizing-git/)**-------
 
