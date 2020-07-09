@@ -76,3 +76,43 @@ git init -------->WORKING DIRECTORY-------->git add ------->STAGING AREA--------
 - shortcuts to create and switch to branch : **git checkout -b <branch name>**.
 
 ---
+
+### DAY 3
+
+---
+
+**Fork, Clone and Pull Request**
+
+- **Fork** : is a copy of a repository in your own github account
+- **Clone** : is to download the file/code in your desktop
+- **pull request** : is a request to tell a remote user to pull the changes
+
+**How it's work**
+
+For Fork :
+
+- go to remote repository which you need to access to your repository.
+- then right size of the name of repository you got to see a Fork.
+- click Fork and it's appear to your repository.
+
+for clone which is Fork from remote:
+
+- you got to see a green color button with code and download signal.
+- click button and copy the url of that.
+- open git bash and write "git clone (url of repository)".
+- and then you can make change.
+
+**remote url after fork**
+
+- to check url name: **git remote -v**
+- to add remote url name in your repository: **git remote add upsteam (url of remote repository)**.
+  - this helps us to pull the change done by the remote repository after fork also if this is not done then we cann't.
+
+for pull request:
+
+- taking hover towards pull request and click it
+- after clicking it you can see a pull request on green button
+- pull request(click)--> create pull request(click)
+- write title and message of request by summiting pull request
+
+---
