@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn with me (Git/GitHub)</title>
+</head>
+
+<body>
+    <h1>Git and GitHub</h1>
+    <h3>Introduction</h3>
+    <img src="Assets/Github2.png" alt="Git and github" width="70%" height="250">
+
+    <p><b>Git(2005)</b> is a version control system that lets you manage and keep track of your source code
+        history.</p>
+    <p> there are two types of Version Control, they are:-</p>
+    <li>Centralized Version control system</li>
+    <li>Distributed Version control system</li>
+    <b>Centralized Version control system</b>
+    <p>Centralized version control system uses a central server to store all files and enables team collaboration. It
+        works on a single repository to which users can directly access a central server.</p>
+
+    <img src="Assets/Centralized-Version-Control-System-Workflow-What-Is-Git-Edureka.png"
+        alt="Centralized-Version-Control-System" width="60%" height="250"><br>
+
+    <b>Distributed Version control system</b><br>
+    <p> These systems do not necessarily rely on a central server to store all the versions of a project file. In
+        Distributed VCS, every contributor has a local copy or “clone” of the main repository i.e. everyone maintains a
+        local repository of their own which contains all the files and metadata present in the main repository.</p>
+    <img src="Assets/Distributed-Version-Control-System-Workflow-What-Is-Git-Edureka.png"
+        alt="Distributed-Version-Control-System" width="60%" height="250">
+
+    <p>If the central server gets crashed at any point of time, the lost data can be easily recovered from any one of
+        the
+        contributor’s local repositories.</p>
+
+    <p><b>GitHub(2008)</b> is a cloud-based hosting service that lets you manage Git repositories.</p>
+    <p><b>Github work-flow diagram</b></p>
+    <img src="Assets/Git And Github Version Control.png" alt="github" width="60%" height="250"><br>
+    <h3>process and method</h3>
+    <li>Right click on the folder which will kept on repository of github (host in cloud server)</li>
+    <li>then open git bash where you can use different terminology and bash script
+        <ol>
+            <b> Some Some Bash Script</b>
+            <li>mkdir : to make directory.</li>
+            <li>cd : Change directory.</li>
+            <li>ls : list directory.</li>
+            <li>file to create.</li>
+            <li>touch : create file.</li>
+            <li>echo : with message create file.</li>
+            <li>nano : with edit txt and create file.</li>
+            <li>rm -R : Remove Files and directory.</li>
+        </ol>
+        <ol>
+            <b>Git Terminology</b>
+            <li>add : add files and folder to staging.</li>
+            <li>commit : create version/snapshot of repo.</li>
+            <li> push : send files to remote.</li>
+            <li>fetch : retrieve update information from remote.</li>
+            <li>pull: retrieve updates from remote.</li>
+            <li> branch: different section on same repository.</li>
+            <li>clone: copy your repository.</li>
+            <li>fork: copy other’s repo into your personal repo.</li>
+        </ol>
+        <ol>
+            <b>More Git Command and terminology</b>
+            <li>git log dif (shows diff btn the staging & working directory.</li>
+            <li>to check branch : git branch.</li>
+            <li> to add branch : git branch '<'brance name'>'</li>
+            <li>to switch branch : git checkout '<'brance name'>'.</li>
+            <li>to delete branch : git branch -b '<'brance name'>'</li>
+            <li>to merge branch : git merge'<'brance name'>' </li>
+            <li>shortcuts to create and switch to branch : git checkout -b '<'brance name'>'.</li>
+        </ol>
+
+        <p>-----for more visulization of flow of branch <a href="http://git-school.github.io/visualizing-git/">
+                visit site visualizing git</a>-----</p>
+
+    </li>
+    <li>then initialized by <b>git init</b></li>
+    <li>after init it's in workinging directory (addition, deletion, modification can be done)</li>
+    <li>after working directory thry need to be add so <b>git add .</b></li>
+    <li>then it's enter to Stating area where the code is ready to commit</li>
+    <li><b>git commit -m "message to commit"</b> goes to repository</li>
+
+</body>
+
+</html>

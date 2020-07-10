@@ -19,7 +19,10 @@ Hello Everyone!, it's me Sunil Shrestha. Currently pursuing my Bachelor degree o
 **Git Workflow**
 
 git init -------->WORKING DIRECTORY-------->git add ------->STAGING AREA-------->git commit----->REPOSITORY.
-... ... (Additions, Deletion, Modifications) ... (Files are ready for commit) ... (change are saved to repo)
+
+- working directory : (Additions, Deletion, Modifications).
+- staging area : (Files are ready for commit).
+- repository : (change are saved to repo).
 
 **Some Bash Script**
 
@@ -52,28 +55,21 @@ git init -------->WORKING DIRECTORY-------->git add ------->STAGING AREA--------
 **More Git Command**
 
 - **log** : track all command log.
-- eg : git log. +**dif** / diff --staged: Find the different between the staging and working directory.
-- eg : git diff.
+  - eg : git log dif / diff --staged: Find the different between the staging and working directory.
 
 **branch in git**
-
-1(master)--> commit -m "first"-->2(master)-->git branch newbranch.
-|----------|-->commit -m "added in new"(newbranch).
-|----------|
-|--->git merge newbrench(master).
-(master).
 
 ------- **for more visulization visit site [visualizing git](http://git-school.github.io/visualizing-git/)**-------
 
 **more terminology**
 
 - to check branch : **git branch**.
-- to add branch : **git branch <branch name>**.
-- to switch branch : **git checkout <branch name>**.
-- to delete branch : **git branch -b <branch name>**.
-- to merge branch : **git merge <branch name>**.
+- to add branch : **git branch '<'branch name'>'**.
+- to switch branch : **git checkout '<'branch name'>'**.
+- to delete branch : **git branch -b '<'branch name'>'**.
+- to merge branch : **git merge '<'branch name'>'**.
 
-- shortcuts to create and switch to branch : **git checkout -b <branch name>**.
+- shortcuts to create and switch to branch : **git checkout -b '<'branch name'>'**.
 
 ---
 
