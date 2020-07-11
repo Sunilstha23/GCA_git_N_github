@@ -24,16 +24,16 @@ git init -------->WORKING DIRECTORY-------->git add ------->STAGING AREA--------
 - staging area : (Files are ready for commit).
 - repository : (change are saved to repo).
 
-|**Some Bash Script**|**Git Terminology**|
-|:-------------------------------------------------||:-------------------------------------------------|
-|_mkdir_ : to make directory.|**add** : add files and folder to staging.|
-|_cd_ : Change directory.|**commit** : create version/snapshot of repo.
-|_ls_ : list directory.|**push** : send files to remote.|
-|_file_ to create.|**fetch** : retrieve update information from remote.|
-|1. _touch_ : create file.|**pull**: retrieve updates from remote.|
-|2. _echo_ : with message create file.|**branch**: different section on same repository.|
-|3. _nano_ : with edit txt and create file.|**clone**: copy your repository.|
-|rm -R : Remove Files and directory.|**fork**: copy other’s repo into your personal repo.|
+| Some Bash Script | Git Terminology |
+| ------ | ------ |
+| _mkdir_ : to make directory.| **add** : add files and folder to staging. |
+| _cd_ : Change directory.| **commit** : create version/snapshot of repo. |
+| _ls_ : list directory.| **push** : send files to remote. |
+| _file_ to create.| **fetch** : retrieve update information from remote. |
+| 1. _touch_ : create file.| **pull**: retrieve updates from remote. |
+| 2. _echo_ : with message create file.| **branch**: different section on same repository. |
+| 3. _nano_ : with edit txt and create file.| **clone**: copy your repository. |
+| rm -R : Remove Files and directory.| **fork**: copy other’s repo into your personal repo. |
 
 ---
 
