@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main_div {
+    margin-left: 170px;
+    margin-right: 170px;
+    background-color: aliceblue;
+    background-image: linear-gradient(to right, rgb(234, 236, 236), aliceblue);
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.img_div {
+    display: flex;
+    justify-content: center;
+}
+
+.topic {
+    color: rgb(196, 60, 60);
+    font-size: 1.5rem;
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(197, 186, 186), rgb(212, 252, 255));
+    color: rgb(196, 60, 60);
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+h1,
+h3 {
+    padding: 0%;
+    margin: 0;
+}
+
+/* table css */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* ----end of table ----- */
+li {
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.list_center {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}

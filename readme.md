@@ -24,27 +24,16 @@ git init -------->WORKING DIRECTORY-------->git add ------->STAGING AREA--------
 - staging area : (Files are ready for commit).
 - repository : (change are saved to repo).
 
-**Some Bash Script**
-
-- _mkdir_ : to make directory.
-- _cd_ : Change directory.
-- _ls_ : list directory.
-- _file_ to create.
-  1. _touch_ : create file.
-  2. _echo_ : with message create file.
-  3. _nano_ : with edit txt and create file.
-- rm -R : Remove Files and directory.
-
-**Git Terminology**
-
-- **add** : add files and folder to staging.
-- **commit** : create version/snapshot of repo.
-- **push** : send files to remote.
-- **fetch** : retrieve update information from remote.
-- **pull**: retrieve updates from remote.
-- **branch**: different section on same repository.
-- **clone**: copy your repository.
-- **fork**: copy other’s repo into your personal repo.
+|**Some Bash Script**|**Git Terminology**|
+|:-------------------------------------------------||:-------------------------------------------------|
+|_mkdir_ : to make directory.|**add** : add files and folder to staging.|
+|_cd_ : Change directory.|**commit** : create version/snapshot of repo.
+|_ls_ : list directory.|**push** : send files to remote.|
+|_file_ to create.|**fetch** : retrieve update information from remote.|
+|1. _touch_ : create file.|**pull**: retrieve updates from remote.|
+|2. _echo_ : with message create file.|**branch**: different section on same repository.|
+|3. _nano_ : with edit txt and create file.|**clone**: copy your repository.|
+|rm -R : Remove Files and directory.|**fork**: copy other’s repo into your personal repo.|
 
 ---
 
@@ -105,7 +94,7 @@ for clone which is Fork from remote:
 - to add remote url name in your repository: **git remote add upsteam (url of remote repository)**.
   - this helps us to pull the change done by the remote repository after fork also if this is not done then we cann't.
 
-for pull request:
+**for pull request**:
 
 - take hover towards pull request, click
 - after clicking it you can see a pull request on green button, click
