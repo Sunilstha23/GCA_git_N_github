@@ -14,7 +14,7 @@ Hello Everyone!, it's me Sunil Shrestha. Currently pursuing my Bachelor degree o
 
 **Git and GitHub**
 
-- Git(2008) is maintained and installed on local system where GitHub is exclusively cloud-based(server).
+- Git(2005) is maintained and installed on local system where GitHub(2008) is exclusively cloud-based(server).
 
 **Git Workflow**
 
@@ -31,8 +31,8 @@ git init -------->WORKING DIRECTORY-------->git add ------->STAGING AREA--------
 - _ls_ : list directory.
 - _file_ to create.
   1. _touch_ : create file.
-  1. _echo_ : with message create file.
-  1. _nano_ : with edit txt and create file.
+  2. _echo_ : with message create file.
+  3. _nano_ : with edit txt and create file.
 - rm -R : Remove Files and directory.
 
 **Git Terminology**
@@ -55,7 +55,8 @@ git init -------->WORKING DIRECTORY-------->git add ------->STAGING AREA--------
 **More Git Command**
 
 - **log** : track all command log.
-  - eg : git log dif / diff --staged: Find the different between the staging and working directory.
+  - eg : git log Or
+  * git dif / diff --staged: Find the different between the staging and working directory.
 
 **branch in git**
 
@@ -87,16 +88,16 @@ git init -------->WORKING DIRECTORY-------->git add ------->STAGING AREA--------
 
 For Fork :
 
-- go to remote repository which you need to access to your repository.
-- then right size of the name of repository you got to see a Fork.
-- click Fork and it's appear to your repository.
+- go to remote repository which you want to Fork.
+- top-right corner of the page you find a fork, click Fork.
+- Now, it's appear to your repository.
 
 for clone which is Fork from remote:
 
 - you got to see a green color button with code and download signal.
-- click button and copy the url of that.
+- click and copy the url of that.
 - open git bash and write "git clone (url of repository)".
-- and then you can make change.
+- Now, you can make change.
 
 **remote url after fork**
 
@@ -106,10 +107,10 @@ for clone which is Fork from remote:
 
 for pull request:
 
-- taking hover towards pull request and click it
-- after clicking it you can see a pull request on green button
-- pull request(click)--> create pull request(click)
-- write title and message of request by summiting pull request
+- take hover towards pull request, click
+- after clicking it you can see a pull request on green button, click
+- create pull request, click
+- write title and message of request and click pull request.
 
 ---
 
@@ -119,11 +120,11 @@ for pull request:
 
 I would like to appreciate for your 3 days of the wonderful session on " Git and GitHub " provided by Mr. Milan Thapa, Senior Regional Officer at Genese Cloud Academy, from July 6 to July 8, 2020.
 
-During this session, we got to learn about the differences between Git and GitHub, git workflow, installation, bash scripts, git technology (add, commit, pull, push, fetch, clone, fork) and there uses. Being an IT student this session is very fruitful and useful in our career. I must say this training session makes my knowledge more enhances and even makes us highly motivated.
+During this session, we got to learn about the differences between Git and GitHub, git workflow, installation, bash scripts, git technology (add, commit, pull, push, fetch, clone, fork) and their uses. Being an IT student this session is very fruitful and useful in our career. I must say this training session makes my knowledge more enhances and even makes us highly motivated.
 
 I am really grateful to be part of this placement as a scholar, looking forward to attending this kind of productive class which boosts us to become more self-reliant, job holder, and entrepreneurs with the right soft and hard skills.
 
-I would also like to thanks **genese cloud academy and Girls in tech** for providing us these kinds of classes which not only help us to improve but make our ability more strong and even  Mr. Milan Thapa, Senior Regional Officer at Genese Cloud Academy.  and volunteer for your valuable time and effort.
+I would also like to thanks **genese cloud academy and Girls in tech** for providing us these kinds of classes which not only help us to improve but make our ability stronger and even  Mr. Milan Thapa, Senior Regional Officer at Genese Cloud Academy.  and volunteer for your valuable time and effort.
 
 **Regards**
 **Name**: **Sunil Shrestha**

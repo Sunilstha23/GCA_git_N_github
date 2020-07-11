@@ -1,89 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learn with me (Git/GitHub)</title>
-</head>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
 
-<body>
-    <h1>Git and GitHub</h1>
-    <h3>Introduction</h3>
-    <img src="Assets/Github2.png" alt="Git and github" width="70%" height="250">
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
 
-    <p><b>Git(2005)</b> is a version control system that lets you manage and keep track of your source code
-        history.</p>
-    <p> there are two types of Version Control, they are:-</p>
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header style="background-color: rgb(240, 240, 240);">
+      <h1 style="text-align: center;">Git and GitHub</h1>
+    </header>
+    <hr />
+    <h3><u>Introduction</u></h3>
+    <hr />
+    <img
+      src="Assets/Github2.png"
+      alt="Git and github"
+      width="70%"
+      height="250"
+    />
+    <hr />
+    <p>
+      <b>Git(2005)</b> is a version control system that lets you manage and keep
+      track of your source code history.
+    </p>
+    <p>there are two types of Version Control, they are:-</p>
     <li>Centralized Version control system</li>
     <li>Distributed Version control system</li>
-    <b>Centralized Version control system</b>
-    <p>Centralized version control system uses a central server to store all files and enables team collaboration. It
-        works on a single repository to which users can directly access a central server.</p>
+    <hr />
+    <b><u>Centralized Version control system</u></b>
+    <p>
+      Centralized version control system uses a central server to store all
+      files and enables team collaboration. It works on a single repository to
+      which users can directly access a central server.
+    </p>
 
-    <img src="Assets/Centralized-Version-Control-System-Workflow-What-Is-Git-Edureka.png"
-        alt="Centralized-Version-Control-System" width="60%" height="250"><br>
+    <img
+      src="Assets/Centralized-Version-Control-System-Workflow-What-Is-Git-Edureka.png"
+      alt="Centralized-Version-Control-System"
+      width="60%"
+      height="250"
+    /><br />
+    <hr />
+    <u><b>Distributed Version control system</b></u
+    ><br />
+    <p>
+      These systems do not necessarily rely on a central server to store all the
+      versions of a project file. In Distributed VCS, every contributor has a
+      local copy or “clone” of the main repository i.e. everyone maintains a
+      local repository of their own which contains all the files and metadata
+      present in the main repository.
+    </p>
+    <img
+      src="Assets/Distributed-Version-Control-System-Workflow-What-Is-Git-Edureka.png"
+      alt="Distributed-Version-Control-System"
+      width="60%"
+      height="250"
+    />
 
-    <b>Distributed Version control system</b><br>
-    <p> These systems do not necessarily rely on a central server to store all the versions of a project file. In
-        Distributed VCS, every contributor has a local copy or “clone” of the main repository i.e. everyone maintains a
-        local repository of their own which contains all the files and metadata present in the main repository.</p>
-    <img src="Assets/Distributed-Version-Control-System-Workflow-What-Is-Git-Edureka.png"
-        alt="Distributed-Version-Control-System" width="60%" height="250">
-
-    <p>If the central server gets crashed at any point of time, the lost data can be easily recovered from any one of
-        the
-        contributor’s local repositories.</p>
-
-    <p><b>GitHub(2008)</b> is a cloud-based hosting service that lets you manage Git repositories.</p>
+    <p>
+      If the central server gets crashed at any point of time, the lost data can
+      be easily recovered from any one of the contributor’s local repositories.
+    </p>
+    <hr />
+    <p>
+      <b>GitHub(2008)</b> is a cloud-based hosting service that lets you manage
+      Git repositories.
+    </p>
     <p><b>Github work-flow diagram</b></p>
-    <img src="Assets/Git And Github Version Control.png" alt="github" width="60%" height="250"><br>
+    <img
+      src="Assets/Git And Github Version Control.png"
+      alt="github"
+      width="60%"
+      height="250"
+    /><br />
+    <hr />
     <h3>process and method</h3>
-    <li>Right click on the folder which will kept on repository of github (host in cloud server)</li>
-    <li>then open git bash where you can use different terminology and bash script
-        <ol>
-            <b> Some Some Bash Script</b>
-            <li>mkdir : to make directory.</li>
-            <li>cd : Change directory.</li>
-            <li>ls : list directory.</li>
-            <li>file to create.</li>
-            <li>touch : create file.</li>
-            <li>echo : with message create file.</li>
-            <li>nano : with edit txt and create file.</li>
-            <li>rm -R : Remove Files and directory.</li>
-        </ol>
-        <ol>
-            <b>Git Terminology</b>
-            <li>add : add files and folder to staging.</li>
-            <li>commit : create version/snapshot of repo.</li>
-            <li> push : send files to remote.</li>
-            <li>fetch : retrieve update information from remote.</li>
-            <li>pull: retrieve updates from remote.</li>
-            <li> branch: different section on same repository.</li>
-            <li>clone: copy your repository.</li>
-            <li>fork: copy other’s repo into your personal repo.</li>
-        </ol>
-        <ol>
-            <b>More Git Command and terminology</b>
-            <li>git log dif (shows diff btn the staging & working directory.</li>
-            <li>to check branch : git branch.</li>
-            <li> to add branch : git branch '<'brance name'>'</li>
-            <li>to switch branch : git checkout '<'brance name'>'.</li>
-            <li>to delete branch : git branch -b '<'brance name'>'</li>
-            <li>to merge branch : git merge'<'brance name'>' </li>
-            <li>shortcuts to create and switch to branch : git checkout -b '<'brance name'>'.</li>
-        </ol>
-
-        <p>-----for more visulization of flow of branch <a href="http://git-school.github.io/visualizing-git/">
-                visit site visualizing git</a>-----</p>
-
+    <hr />
+    <li>Right click on the folder which will kept on repository of github (host incloud server)</li>
+    <li> then open git bash where you can use different terminology and bash script</li>
+    <br />
+    <table>
+        <tr>
+          <th>Some Some Bash Script</th>
+          <th>Git Terminology</th>
+          <th>More Git Command and terminology</th>
+        </tr>
+        <tr>
+          <td>mkdir : to make directory.</td>
+          <td>add : add files and folder to staging.</td>
+          <td>
+            git log / git dif (shows diff btn the staging & working directory.
+          </td>
+        </tr>
+        <tr>
+          <td>cd : Change directory.</td>
+          <td>commit : create version/snapshot of repo.</td>
+          <td>to check branch : git branch.</td>
+        </tr>
+        <tr>
+          <td>ls : list directory.</td>
+          <td>push : send files to remote.</td>
+          <td>to add branch : git branch '<'brance name'>'</td>
+        </tr>
+        <tr>
+          <td>file to create</td>
+          <td>fetch : retrieve update information from remote.</td>
+          <td>to switch branch : git checkout '<'brance name'>'.</td>
+        </tr>
+        <tr>
+          <td>touch : create file.</td>
+          <td>pull: retrieve updates from remote.</td>
+          <td>to delete branch : git branch -b '<'brance name'>'</td>
+        </tr>
+        <tr>
+          <td>echo : with message create file.</td>
+          <td>branch: different section on same repository.</td>
+          <td>to merge branch : git merge'<'brance name'>'</td>
+        </tr>
+        <tr>
+          <td>nano : with edit txt and create file.</td>
+          <td>clone: copy your repository.</td>
+          <td>
+            shortcuts to create and switch to branch : git checkout -b '<'brance
+            name'>'.
+          </td>
+        </tr>
+        <tr>
+          <td>rm -R : Remove Files and directory.</td>
+          <td>fork: copy other’s repo into your personal repo.</td>
+          <td></td>
+        </tr>
+      </table>
+      <br />
+      <p style="text-align: center;">
+        ------------------------for more visulization of flow of branch
+        <a href="http://git-school.github.io/visualizing-git/">
+          visit site visualizing git</a
+        >------------------------
+      </p>
     </li>
     <li>then initialized by <b>git init</b></li>
-    <li>after init it's in workinging directory (addition, deletion, modification can be done)</li>
+    <li>
+      after init it's in workinging directory (addition, deletion, modification
+      can be done)
+    </li>
     <li>after working directory thry need to be add so <b>git add .</b></li>
     <li>then it's enter to Stating area where the code is ready to commit</li>
     <li><b>git commit -m "message to commit"</b> goes to repository</li>
-
-</body>
-
+    <br />
+    <li>
+      <b
+        >Now create an repository in GitHub Account Using followinig
+        instruction</b
+      >
+    </li>
+    <li>
+      On your github account top-right side there is plus('+') Sign Click that
+      and create new repository
+    </li>
+    <li>
+      Name the repository name and you can also write the description(optional)
+      then click <b>Create repository</b> button
+    </li>
+    <li>after that you get url for the repo</li>
+    <li>
+      To connect the git and githubaccount
+      <b>git remote add origin '<'url path'>'</b>
+    </li>
+    <li>then push the code to the repo <b>git push -u origin master</b></li>
+    <li>Now the file can be record in cloud of your github account</li>
+    <br />
+    <li>
+      <b>Creating a branch</b>
+      <p>
+        Branching enables you to isolate your work from others. Changes in the
+        primary branch or other branches will not affect your branch, unless you
+        decide to pull the latest changes from those branches. It is a common
+        practice to create a new branch for each task (i.e., a branch for bug
+        fixing, a branch for new features, etc.). This method allows others to
+        easily identify what changes to expect and also makes backtracking
+        simple.
+      </p>
+      <ul>
+        <li>
+          to create branch and switch to it
+          <b>git checkout -b '<'branch name'>'</b>
+        </li>
+        <li>make change on your file and see state <b>git status</b></li>
+        <li>to see the difference of the code from previous <b>git diff</b></li>
+        <li>Now add to branch <b>git add .</b></li>
+        <li>
+          commit the change you have made <b>git commit -m "change message"</b>
+        </li>
+        <li>Now push the branch to repository</li>
+        <li><b>git push</b></li>
+        <li>
+          then appear <b>git terminology on bash copy and paste to bash</b>
+        </li>
+        <li>Now you can see your change and branch in repository</li>
+      </ul>
+    </li>
+    <br />
+    <li>
+      <b>merging the branch which we have created</b>
+      <ul>
+        <li><b>git merge <'branch name'></b> merges the file</li>
+        <li><b>git push -u origin master</b> update to master in repository</li>
+      </ul>
+    </li>
+    <br />
+    <li>
+      <b>update repository to pull in your file</b>
+      <ul>
+        <li>
+          open git bash on file where work is done <b>git pull origin master</b>
+        </li>
+      </ul>
+    </li>
+    <hr />
+    <li>
+      <b>to Fork remote project and make change</b>
+      <p>
+        A fork is a copy of a repository. Forking a repository allows you to
+        freely experiment with changes without affecting the original project.
+        Most commonly, forks are used to either propose changes to someone
+        else's project or to use someone else's project as a starting point for
+        your own idea
+      </p>
+      <ul>
+        <li>go to remote repository which you want to Fork.</li>
+        <li>top-right corner of the page you find a fork, click Fork.</li>
+        <li>Now, it's appear to your repository</li>
+      </ul>
+    </li>
+    <br />
+    <li>
+      <b>Clone the repository files </b>
+      <ul>
+        <li>
+          you got to see a green color button with code and download signal.
+        </li>
+        <li>click and copy the url of that.</li>
+        <li>open git bash and write <b>"git clone (url of repository)".</b></li>
+        <li>Now you can make change.</li>
+      </ul>
+    </li>
+    <br />
+    <li>
+      <b>learn about remote terminology</b>
+      <p>
+        A remote in Git is a common repository that all team members use to
+        exchange their changes. In most cases, such a remote repository is
+        stored on a code hosting service like GitHub or on an internal server.
+      </p>
+      <ul>
+        <li>your local repocitory have name <b>origin (remote)</b></li>
+        <li>
+          the repository which you have Fork is named as
+          <b>upstream (remote)</b>
+        </li>
+        <li>to check remote name and url in your git <b>git remote -v</b></li>
+      </ul>
+    </li>
+    <br />
+    <li><b>problem to pull from upstream</b></li>
+    <li>this rise because we haven't added url path of upsterem in git</li>
+    <li>to add <b>git remote add upstream <'url of upstream(remote) '></b></li>
+    <li>
+      Now you can pull the update from upsteram <b>git pull upsteram master</b>
+    </li>
+    <br />
+    <li>
+      <b>Pull Request to remote repository</b>
+      <ul>
+        <li>take hover towards pull request, click</li>
+        <li>
+          after clicking it you can see a pull request on green button, click
+        </li>
+        <li>create pull request, click</li>
+        <li>write title and message of request and click pull request.</li>
+      </ul>
+    </li>
+    <hr />
+    <footer style="background-color: rgb(224, 224, 224);">
+      <p style="text-align: center;">@copyright 2020 git and github</p>
+    </footer>
+    <hr />
+  </body>
 </html>
