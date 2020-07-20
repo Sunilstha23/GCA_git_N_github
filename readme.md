@@ -4,7 +4,7 @@
 
 ---
 
-Hello Everyone!, it's me Sunil Shrestha. Currently pursuing my Bachelor degree on Software engineering and joyful to be part of this placement training organized by GCA and Girl in Tech.
+> Hello Everyone!, it's me Sunil Shrestha. Currently pursuing my Bachelor degree on Software engineering and joyful to be part of this placement training organized by GCA and Girl in Tech.
 
 ---
 
@@ -20,20 +20,24 @@ Hello Everyone!, it's me Sunil Shrestha. Currently pursuing my Bachelor degree o
 
 git init -------->WORKING DIRECTORY-------->git add ------->STAGING AREA-------->git commit----->REPOSITORY.
 
+```sh
+
 - working directory : (Additions, Deletion, Modifications).
 - staging area : (Files are ready for commit).
 - repository : (change are saved to repo).
 
-| Some Bash Script | Git Terminology |
-| ------ | ------ |
-| _mkdir_ : to make directory.| **add** : add files and folder to staging. |
-| _cd_ : Change directory.| **commit** : create version/snapshot of repo. |
-| _ls_ : list directory.| **push** : send files to remote. |
-| _file_ to create.| **fetch** : retrieve update information from remote. |
-| 1. _touch_ : create file.| **pull**: retrieve updates from remote. |
-| 2. _echo_ : with message create file.| **branch**: different section on same repository. |
-| 3. _nano_ : with edit txt and create file.| **clone**: copy your repository. |
-| rm -R : Remove Files and directory.| **fork**: copy other’s repo into your personal repo. |
+```
+
+| Some Bash Script                           | Git Terminology                                      |
+| ------------------------------------------ | ---------------------------------------------------- |
+| _mkdir_ : to make directory.               | **add** : add files and folder to staging.           |
+| _cd_ : Change directory.                   | **commit** : create version/snapshot of repo.        |
+| _ls_ : list directory.                     | **push** : send files to remote.                     |
+| _file_ to create.                          | **fetch** : retrieve update information from remote. |
+| 1. _touch_ : create file.                  | **pull**: retrieve updates from remote.              |
+| 2. _echo_ : with message create file.      | **branch**: different section on same repository.    |
+| 3. _nano_ : with edit txt and create file. | **clone**: copy your repository.                     |
+| rm -R : Remove Files and directory.        | **fork**: copy other’s repo into your personal repo. |
 
 ---
 
@@ -107,13 +111,23 @@ for clone which is Fork from remote:
 
 ---
 
-I would like to appreciate for your 3 days of the wonderful session on " Git and GitHub " provided by Mr. Milan Thapa, Senior Regional Officer at Genese Cloud Academy, from July 6 to July 8, 2020.
+> I would like to appreciate for your 3 days of the wonderful session on " Git and GitHub " provided by Mr. Milan Thapa, Senior Regional Officer at Genese Cloud Academy, from July 6 to July 8, 2020.
 
-During this session, we got to learn about the differences between Git and GitHub, git workflow, installation, bash scripts, git technology (add, commit, pull, push, fetch, clone, fork) and their uses. Being an IT student this session is very fruitful and useful in our career. I must say this training session makes my knowledge more enhances and even makes us highly motivated.
+> During this session, we got to learn about the differences between Git and GitHub, git workflow, installation, bash scripts, git technology (add, commit, pull, push, fetch, clone, fork) and their uses. Being an IT student this session is very fruitful and useful in our career. I must say this training session makes my knowledge more enhances and even makes us highly motivated.
 
-I am really grateful to be part of this placement as a scholar, looking forward to attending this kind of productive class which boosts us to become more self-reliant, job holder, and entrepreneurs with the right soft and hard skills.
+> I am really grateful to be part of this placement as a scholar, looking forward to attending this kind of productive class which boosts us to become more self-reliant, job holder, and entrepreneurs with the right soft and hard skills.
 
-I would also like to thanks **genese cloud academy and Girls in tech** for providing us these kinds of classes which not only help us to improve but make our ability stronger and even  Mr. Milan Thapa, Senior Regional Officer at Genese Cloud Academy.  and volunteer for your valuable time and effort.
+> I would also like to thanks **genese cloud academy and Girls in tech** for providing us these kinds of classes which not only help us to improve but make our ability stronger and even  Mr. Milan Thapa, Senior Regional Officer at Genese Cloud Academy.  and volunteer for your valuable time and effort.
 
 **Regards**
 **Name**: **Sunil Shrestha**
+
+---
+
+### Certification
+
+---
+
+![Certificate of complition- Git and Github](https://drive.google.com/file/d/15JyxCoPOId_wYOV3IQIWcWcr267rqrMi/view?usp=sharing)
+
+---
