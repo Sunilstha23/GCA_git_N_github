@@ -128,5 +128,6 @@ for clone which is Fork from remote:
 
 ---
 
-![Certificate of complition- Git and Github](https://drive.google.com/file/d/15JyxCoPOId_wYOV3IQIWcWcr267rqrMi/view?usp=sharing)
+![Certificate of complition- Git and Github](Assets/certificate_Sunil-Shrestha.jpg)
+
 ---
